@@ -1,0 +1,182 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #000;
+    
+}
+
+.container .logo{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 5px;
+}
+
+.container .logo h1{
+    line-height: 30px;
+    color: #fff;
+    margin: 5px;
+    padding: 0px 5px;
+}
+
+.container .logo strong{
+    color: rgb(241, 113, 8);
+}
+
+.container .logo img{
+    width: 100px;
+    height: 100px;
+    border: 6px solid rgb(255, 123, 0);
+    border-radius: 50%;
+    margin: 0px 5px;
+}
+
+.container .contact{
+    text-align: end;
+    width: 100%;
+    color: rgb(96, 204, 132);
+    padding: 0px 10px;
+}
+
+.container .contact a{
+    text-decoration: none;
+    color: chartreuse;
+    font-weight: 600;
+}
+
+.container .contact img{
+    width: 15px;
+}
+
+section{
+    
+}
+
+.menu{
+    width: 100%;
+    padding: 5px;
+}
+
+.menu-lanches{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    flex: 1;
+    display: flex;
+}
+
+.lanche1{
+    width: 100%;
+    border-right: 1px solid #ccc;
+}
+
+.lanche1 img{
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    border-radius: 50px;
+    border: 1px solid #ccc;
+}
+
+.lanche1 .title{
+    width: auto;
+    color: red;
+    font-weight: 700;
+}
+
+.lanche1 .desc{
+    width: auto;
+    color: #fff;
+    font-weight: 700;
+}
+
+.lanche1 .desc{
+    font-size: 13px;
+}
+
+.desc strong{
+    color: chartreuse;
+}
+
+.preco{
+    padding: 2px;
+    width: 102px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.preco h4{
+    font-size: 14px;
+}
+
+.container{
+    
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #000;
+    width: 30vw;
+}
+
+.redes a {
+    text-decoration: none;
+    margin: 10px;
+    color: #fff;
+    font-weight: 700;
+}
+
+@media(max-width:320px){
+    .container{
+        width: 100vw;
+    }
+
+    footer{
+        width: 100vw;
+    }
+}
+
+@media(max-width:425px){
+    .container{
+        width: 100vw;
+    }
+
+    footer{
+        width: 100vw;
+    }
+
+}
+
+
+@media(min-width:426px){
+    .container{
+        width: 425px;
+    }
+
+    footer{
+        width: 425px;
+    }
+}
+
+
+
